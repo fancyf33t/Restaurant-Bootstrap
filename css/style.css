@@ -1,0 +1,75 @@
+/* linear gradient for top-nav section
+    top:#f1f52
+    bottom: #e54839 */
+:root {
+    --prim: #e0463c;
+    --sec: #fff8ce;
+    --tert: #f5eedc;
+    --textColor: #691e1b;
+    --offerHeader: #999e03;
+    --clientBg: #66653e;
+    --clientTop: #4c4940;
+    --infoBG: #5c5954;
+    --colophonBG: #413e39;
+}
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+.icon-coffee {
+    width: 1.0361328125em;
+}
+
+/* HEADER */
+/* CLOSE HEADER */
+
+/* MAIN */
+/* CLOSE MAIN */
+
+/* FOOTER */
+/* CLOSE FOOTER */
+
+.dropdown-div select {
+    margin: 10px auto;
+    width: 100%;
+}
+
+.slogan-text {
+    color: var(--textColor);
+    font-family: ;
+    font-size: calc(14px + (24 - 14) * ((100vw - 300px) / (1600 - 300)));
+    font-style: italic;
+    font-weight: 100;
+}
+
+@media (max-width: 767px) {
+    .slogan-text {
+        font-size: 36px;
+    }
+}
+
+form {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 60px;
+    border: 4px solid black;
+}
+
+input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--sec);
+    border-color: var(--textColor);
+}
