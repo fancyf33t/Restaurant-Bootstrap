@@ -11,6 +11,8 @@
     --clientTop: #63625c;
     --infoBG: #5c5954;
     --colophonBG: #413e39;
+    --workSans: font-family: 'Work Sans', sans-serif;
+    --yesterCur: 'Yesteryear', cursive;
 }
 body {
     margin: 0;
@@ -66,6 +68,10 @@ body {
 .logo {
     color: whitesmoke;
 }
+.logo a {
+    text-decoration: none;
+    color: whitesmoke;
+}
 .slogan-section {
     background-color: var(--sec);
     padding: 40px 0;
@@ -73,7 +79,7 @@ body {
 .slogan-text {
     color: var(--textColor);
     font-family: var(--workSans);
-    fontsize: calc(14px + (24-14) * ((100vw -300px)/(1600 - 300)));
+    font-size: calc(14px + (24-14) * ((100vw -300px)/(1600 - 300)));
     font-style: italic;
     font-weight: 100;
 }
@@ -107,17 +113,28 @@ body {
 .figure {
     background: #fff;
     box-shadow: 5px 5px 5px #ddd;
+    width: 100%;
 }
 .figcaption-header {
 
 }
+.icon-forkandknife, .icon-heart, .icon-coffee {
+    color: var(--offerHeader);
+}
 .small-text {
     display: block;
-    font-size: 12px;
+    font-size: 14px;
     text-transform: uppercase;
 }
+.offer-section .sub-header {
+    color: var(--textColor);
+    font-family: var(--workSans);
+    font-size: calc(14px + (24-14) * ((100vw -300px)/(1600 - 300)));
+    font-style: italic;
+    font-weight: 100;
+}
 .offer-text {
-
+    font-size: 14px;
 }
 /* CLOSE MAIN */
 
@@ -130,6 +147,9 @@ body {
     padding: 0 40px;
     border-right: 1px solid gray;
     text-transform: capitalize;
+}
+.client-item:nth-child(2), .client-item:nth-child(4) {
+    font-family: var(--yesterCur);
 }
 
 @media (max-width: 767px) {
@@ -242,3 +262,6 @@ input {
     background-color: var(--sec);
     border-color: var(--textColor);
 }
+
+/* about html */
+

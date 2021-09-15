@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Work+Sans:ital,wght@0,400;0,700;0,900;1,400&family=Yesteryear&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&family=Yesteryear&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Restaurant</title>
 </head>
@@ -33,13 +35,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-5">
-                        <h1 class="logo">Restaurant</h1>
+                        <h1 class="logo"><a href="index.html">Restaurant</a></h1>
                     </div>
                     <div class="col-md-7">
                         <!-- display none on small; display on medium -->
                         <nav class="top-nav d-none d-md-block"> <!--d-none and d-md-block are the exact things i needed in my venedor code. you really need to get a better understanding of how to use bootstrap. you are bad at this-->
                             <ul class="top-nav-list nav justify-content-between">
-                                <li class="top-nav-item"><a href="about.html" class="nav-link">about</a></li>
+                                <li class="top-nav-item"><a href="#link" class="nav-link">about</a></li>
                                 <li class="top-nav-item"><a href="#link" class="nav-link">events</a></li>
                                 <li class="top-nav-item"><a href="#link" class="nav-link">menu</a></li>
                                 <li class="top-nav-item"><a href="#link" class="nav-link">gallery</a></li>
@@ -116,78 +118,29 @@
                   </div>
             </div>
         </section>
-        <!-- close section -->
-        <section class="figure-section">
+        <section class="about-section">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
-                        <figure class="figure">
-                            <div class="card" style="width: 100%;">
-                                <img src="media/banner6.jpg" class="card-img-top img-fluid" alt="...">
-                                <div class="card-body">
-                                    <h2 class="figcaption-header">Technically food</h2>
-                                    <p class="card-text">Come for the opportunity to meet the bare minimum of nutrition</p>
-                                </div>
-                            </div>
-                        </figure>
+                    <div class="about-text-div col-md-8">
+                        <h2 class="about-text">About</h2>
+                        <p class="about-description-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti voluptatum aperiam odit temporibus quidem magnam ex suscipit? Voluptatibus animi distinctio, aliquid asperiores unde qui perspiciatis sit, impedit ab sint quaerat.
+                        </p>
+                        <p class="about-description-text">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi fugit possimus dolores accusantium laudantium, aperiam quaerat omnis soluta ipsam mollitia! Eaque unde alias harum! Obcaecati itaque qui architecto perspiciatis est harum enim nemo. Consequatur reiciendis ullam quibusdam perspiciatis molestiae, cupiditate voluptas dolores quas distinctio! Repellat voluptatem praesentium beatae quo labore?
+                        </p>
+                        <p class="about-description-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. At quasi voluptas eaque dolor totam sint sed dolorem praesentium laboriosam sapiente numquam perferendis molestiae asperiores quia facilis corrupti rerum deleniti, fugiat harum officia possimus aliquid nulla aspernatur. Aspernatur ea quo vel accusamus consequatur voluptate quia sint et cupiditate consectetur impedit voluptatibus ipsa, architecto beatae excepturi ratione ipsam odio necessitatibus perferendis ducimus placeat odit rerum? Adipisci animi voluptatibus officiis aliquid dolores nobis praesentium unde fuga! Est nihil nulla ducimus quisquam ratione harum.
+                        </p>
                     </div>
                     <div class="col-md-4">
-                        <figure class="figure">
-                            <div class="card" style="width: 100%;">
-                                <img src="media/banner5.jpg" class="card-img-top img-fluid" alt="...">
-                                <div class="card-body">
-                                    <h2 class="figcaption-header">Something about aromatics</h2>
-                                    <p class="card-text">Something something</p>
-                                </div>
-                            </div>
-                        </figure>
-                    </div>
-                    <div class="col-md-4">
-                        <figure class="figure">
-                            <div class="card" style="width: 100%;">
-                                <img src="media/banner4.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h2 class="figcaption-header">It's edible</h2>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                        </figure>
-                    </div>
-                </div>
-                <!-- close row -->
-                <div class="row">
-                    <div class="col-md-4">
-                        <figure class="figure">
-                            <div class="card" style="width: 100%;">
-                                <img src="media/banner6.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h2 class="figcaption-header">It's edible</h2>
-                                    <p class="card-text">blah</p>
-                                </div>
-                            </div>
-                        </figure>
-                    </div>
-                    <div class="col-md-4">
-                        <figure class="figure">
-                            <div class="card">
-                                <div class="card-body">
-                                    <img src="media/banner4.jpg" class="card-img-top" alt="...">
-                                    <h2 class="figcaption-header">Desparate?</h2>
-                                    <p class="card-text">Maybe some illegal alcohol is more your speed.</p>
-                                </div>
-                            </div>
-                        </figure>
-                    </div>
-                    <div class="col-md-4">
-                        <figure class="figure">
-                            <div class="card" style="width: 100%;">
-                                <img src="media/banner6.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h2 class="figcaption-header">It's edible</h2>
-                                    <p class="card-text">Something about good times</p>
-                                </div>
-                            </div>
-                        </figure>
+                        <div class="about-img">
+                            <img src="media/img3.jpg" alt="" class="img-fluid">
+        
+                        </div>
+                        <div class="about-img">
+                            <img src="media/img5.jpg" alt="" class="img-fluid">
+                        </div>
                     </div>
                 </div>
             </div>
