@@ -115,9 +115,7 @@ body {
     box-shadow: 5px 5px 5px #ddd;
     width: 100%;
 }
-.figcaption-header {
 
-}
 .icon-forkandknife, .icon-heart, .icon-coffee {
     color: var(--offerHeader);
 }
@@ -152,11 +150,19 @@ body {
     font-family: var(--yesterCur);
 }
 
-@media (max-width: 767px) {
-    .client-item:nth-child(2) {
+@media (max-width: 768px) {
+    .client-item:nth-child(4) {
+        border-right: none;
+    }
+    .client-item:nth-child(5) {
         border-right: none;
     }
 }
+/* @media (max-width: 991px) {
+    .client-item:last-child {
+        display: none;
+    }
+} */
 .info-section {
     background-color: var(--infoBG);
     padding: 30px 0;
